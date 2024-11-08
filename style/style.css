@@ -1,0 +1,86 @@
+@import url(/style/responsive.css);
+
+nav{
+    display: flex;
+    padding: 20px 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-img{
+    gap: 7px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    color: #2C2B35;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+.Bars-ul{
+    gap: 53px;
+    display: flex;
+    align-items: center;
+}
+ul{
+    gap: 51px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+a{
+    color: #2C2B35;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    color: #fff;
+    outline: none;
+    font-size: 17px;
+    border-radius: 50px;
+    background: #43A548;
+    border: solid 1px #43A548;
+    font-family: "Roboto", sans-serif;
+}
+#section-1{
+    gap: 60px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 96px 0px;
+    align-items: center;
+    background: #fbf9f9;
+    justify-content: center;
+}
+.text-1{
+    padding: 15px;
+    width: 650px;
+    color: #2C2B35;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Roboto Mono", monospace;
+}
+.text-2{
+    padding: 15px;
+    width: 648px;
+    font-size: 20px;
+    color: #2C2B35;
+    line-height: 28px;
+    font-family: "Roboto", sans-serif;
+}
+.btn-2{
+    width: 289px;
+    height: 50px;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 18px;
+    background: #43A548;
+    border: solid 2px #43A548;
+    font-family: "Roboto", sans-serif;
+}
+.Button{
+    padding: 35px 15px;
+}
